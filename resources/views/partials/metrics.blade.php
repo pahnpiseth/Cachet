@@ -77,7 +77,7 @@
             }
 
             chart.chart = new Chart(chart.context, {
-                type: 'line',
+                type: 'bar',
                 data: {
                     labels: _.keys(data),
                     datasets: [{
